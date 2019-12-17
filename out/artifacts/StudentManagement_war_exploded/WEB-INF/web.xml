@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>stulogin</servlet-name>
+        <servlet-class>controller.HandleLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>stulogin</servlet-name>
+        <url-pattern>/helpLogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>register</servlet-name>
+        <servlet-class>controller.HandleRegister</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>register</servlet-name>
+        <url-pattern>/helpRegister</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AllLoginServlet</servlet-name>
+        <servlet-class>controller.AllLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AllLoginServlet</servlet-name>
+        <url-pattern>/AllLoginServlet</url-pattern>
+    </servlet-mapping>
+    InfomationServlet
+
+    <servlet>
+        <servlet-name>infomation</servlet-name>
+        <servlet-class>controller.InfomationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>infomation</servlet-name>
+        <url-pattern>/InfomationServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AlterStudent</servlet-name>
+        <servlet-class>controller.AlterStudent</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AlterStudent</servlet-name>
+        <url-pattern>/AlterStudent</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TeacherInfomationServlet</servlet-name>
+        <servlet-class>controller.TeacherInfomationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeacherInfomationServlet</servlet-name>
+        <url-pattern>/TeacherInfomationServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HandleTeacherRegister</servlet-name>
+        <servlet-class>controller.HandleTeacherRegister</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HandleTeacherRegister</servlet-name>
+        <url-pattern>/HandleTeacherRegister</url-pattern>
+    </servlet-mapping>
+
+</web-app>

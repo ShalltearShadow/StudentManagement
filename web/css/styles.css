@@ -1,0 +1,64 @@
+* { margin: 0; padding: 0; }
+html { height: 100%; }
+body { height: 100%; background: #fff url(../image/b.jpg) 50% 50% no-repeat; background-size: cover;}
+.dowebok { background-color: #1456c7;opacity: 0.8;position: absolute; left: 50%; top: 50%; width: 430px; height: 550px; margin: -300px 0 0 -215px; border: 1px solid #fff; border-radius: 20px; overflow: hidden;}
+.logo { width: 104px; height: 104px; margin: 50px auto 80px; background: url(../image/login.png) 0 0 no-repeat; }
+.form-item { position: relative; width: 360px; margin: 0 auto; padding-bottom: 30px;}
+.form-item input { width: 360px; height: 48px; padding-left: 70px; border: 1px solid #fff; border-radius: 25px; font-size: 18px; color: #fff;  outline: none;}
+.form-submit input { width: 100px; height: 48px;  border: 1px solid #fff; border-radius: 25px; font-size: 18px; color: #fff; background-color: transparent; outline: none;}
+.vlidate {width: 360px; height: 48px;  font-size: 18px; color: #fff;  outline: none;margin-left: 40px}
+.vlidate input { border: 1px #fff; border-style: solid; background-color: initial; border-radius: 3px;}
+#username { background: url(../image/emil.png) 20px 14px no-repeat; margin-left: 2px }
+#password { background: url(../image/password.png) 23px 11px no-repeat; }
+.tip { display: none; position: absolute; left: 20px; top: 52px; font-size: 14px; color: #f50; }
+.reg-bar { width: 360px; margin-left: 30px;}
+.reg-bar a { color: #fff; text-decoration: none; }
+.reg-bar a:hover { text-decoration: underline; }
+.reg-bar .reg { float: left; }
+.reg-bar .forget { float: right; }
+.dowebok ::-webkit-input-placeholder { font-size: 18px; line-height: 1.4; color: #fff;}
+.menu{
+    position: absolute;
+    margin: 30px;
+}
+.menu div {
+    position: relative;
+    line-height: 30px;
+}
+
+.menu input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+
+.menu label {
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    　　　　　　　cursor: pointer;
+}
+
+/*设置选中的input的样式*/
+/* + 是兄弟选择器,获取选中后的label元素*/
+.menu input:checked+label {
+    background-color: #fe6d32;
+    border: 1px solid #fe6d32;
+}
+/*添加的加号与label进行拼接(一个矩形边框去掉上和左的边框),再旋转45度*/
+.menu input:checked+label::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 10px;
+    top: 3px;
+    left: 6px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg);
+}

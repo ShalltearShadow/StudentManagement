@@ -1,0 +1,39 @@
+table{
+    border-collapse:collapse;
+    table-layout:fixed;
+    border-radius:5px;
+    overflow:hidden;
+    margin: 10px auto;
+    border:2px solid #70aefb ;
+    background-color: #328ef4;
+    color: #c7dafb;
+}
+table td,th{
+    padding: 5px;
+    text-align: center;
+    border:1px solid #70aefb ;
+    vertical-align:middle;
+    width: 150px;
+}
+#tablehead{
+    font-size: 24px;
+    color: yellow;
+    display: none;
+}
+
+.navbar{
+    width: 150px;
+    height: 500px;
+    background-color: #328ef4;
+    position: fixed;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 76px;
+    margin-top: 50px;
+}
+
+.info{
+    border: 1px red solid;
+    border-radius: 3px;
+    background-color: yellow;
+}

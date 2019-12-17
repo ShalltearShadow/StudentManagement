@@ -1,0 +1,56 @@
+* {
+    font-size: 24px;
+}
+body {
+    height: 100%;
+    background: #fff url(../image/bg.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.main{
+    width: 360px;
+    margin: auto;
+    height: 470px;
+    border-radius: 20px;
+    margin-top: 100px;
+    opacity: 0.7;
+    background-color: #00BCD4;
+    border: 1px red solid;
+}
+
+ .welcome {
+    opacity: 1;
+    font-size: 24px;
+    height: 130px;
+    padding-top: 50px;
+    color: magenta;
+     text-align: center;
+}
+
+ .pane{
+    opacity: 1;
+     text-align: center;
+}
+
+ .in{
+     text-align: left;
+     margin-top: 10px;
+ }
+
+ span {
+     margin: 0 20px;
+ }
+
+ input {
+     height: 27px;
+     border: 0px;
+     font-size: 24px;
+     width: 200px;
+     border-radius: 3px;
+ }
+
+ #sub{
+     margin-top: 50px;
+     width: 100px;
+     height: 37px;
+ }

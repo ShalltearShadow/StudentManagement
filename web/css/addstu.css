@@ -1,0 +1,28 @@
+.insp{
+    font-size: 24px;
+    width: 135px;
+    display: inline-block;
+}
+
+.ins{
+    margin: 20px;
+}
+
+.in input {
+    font-size: 24px;
+}
+#sub {
+    border: 0px;
+    background-color: teal;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 24px;
+    margin-left: 165px;
+    margin-top: 50px;
+}
+
+.pane{
+    margin: 80px;
+    margin-left: 250px;
+}
